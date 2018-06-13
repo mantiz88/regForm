@@ -1,0 +1,192 @@
+body{
+    font-family: "Open Sans", "Myriad Pro", serif;
+    background: #70b6e2;
+
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background: white;
+    width: 860px;
+}
+.side-text{
+    border-radius: 5px;
+    background: url("img/abstract.png") 46% 17%;
+    padding: 0;
+}
+.container{
+    margin-left: 58px;
+    margin-right: 38px;
+    margin-top: 222px;
+    margin-bottom: 188px;
+    width: 260px;
+}
+.side-text h1{
+    color: #ffffff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+hr {
+    margin: 0;
+    border: 0;
+    background:#ffffff ;
+    width: 92px;
+    height: 4px;
+}
+.side-text p{
+    margin-top: 43px;
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.reg-container{
+    background: #ffffff;
+    border-radius: 5px;
+}
+.reg{
+    margin: 116px 105px 0 92px;
+    padding-left: 13px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.reg h1{
+    margin:0;
+    color: #70b6e2;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.reg p{
+    color: #616161;
+    margin-top: 32px;
+    margin-bottom: 0;
+    font-family: "Myriad Pro", serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.reg p:last-of-type{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.group{
+    position: relative;
+}
+
+.reg input{
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+    margin-top: 28px;
+    width: 300px;
+    height: 42px;
+}
+
+.reg label{
+    position: absolute;
+    font-size: 14px;
+    left: 18px;
+    top: 40px;
+    color: #dddddd;
+}
+.group input{
+    width: 278px;
+    font-family: "Open Sans",serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+.group input:focus{
+    width: 276px;
+    outline: none;
+    margin-top: 40px;
+    border: 2px solid #70b6e2;
+
+}
+.group input:valid{
+    width: 276px;
+    margin-top: 40px;
+    border: 2px solid #70b6e2;
+}
+
+input:focus ~ label {
+    top: 20px;
+    left: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: #70b6e2;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+input:valid ~ label{
+    top: 20px;
+    left: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: #70b6e2;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+
+.sub{
+    border: none;
+    color: white;
+    background-color: #70b6e2;
+    background-image: url("img/padlock.png");
+    background-repeat: no-repeat;
+    background-position: 92px 50%;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-left: 40px;
+}
+.sub:hover{
+    cursor: pointer;
+}
+.reg a{
+    color: #c0dcf1;
+}
+@media screen and (max-width: 1800px){
+    .wrapper{
+        margin-left: 18%;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1440px){
+ .wrapper{
+     margin-left: 18%;
+     margin-top: 100px;
+ }
+}
+
+@media screen and (max-width: 1366px){
+    .wrapper{
+        margin-left: 18%;
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .wrapper{
+        margin-left: 4%;
+    }
+}
+@media screen and (max-width: 930px){
+    .wrapper{
+        flex-direction: column;
+        width: 430px;
+    }
+    .reg{
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+}
+
+
